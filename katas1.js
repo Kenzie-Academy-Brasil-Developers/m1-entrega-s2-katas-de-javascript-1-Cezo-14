@@ -1,94 +1,102 @@
+//1//
 function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+  let numeros1 = [];
+  for (let i = 1; i <= 20; i = i + 1) {
+    numeros1.push(i);
+  }
+  return numeros1;
 }
+console.log(oneThroughTwenty());
 
-//call function oneThroughTwenty
-
+//2//
 function evensToTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
+  let numeros2 = [];
+  for (let i = 2; i <= 20; i = i + 2) {
+    numeros2.push(i);
+  }
+  return numeros2;
 }
+console.log(evensToTwenty());
 
-//call function evensToTwenty
-
+//3//
 function oddsToTwenty() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-   
+  let numeros3 = [];
+  for (let i = 1; i <= 19; i = i + 2) {
+    numeros3.push(i);
+  }
+  return numeros3;
 }
+console.log(oddsToTwenty());
 
-//call function oddsToTwenty
-
+//4//
 function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-
+  let numeros4 = [];
+  for (let i = 5; i <= 100; i = i + 5) {
+    numeros4.push(i);
+  }
+  return numeros4;
 }
+console.log(multiplesOfFive());
 
-//call function multiplesOfFive
-
+//5//
 function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+  let numeros5 = [];
+  for (let i = 1; i <= 10; i = i + 1) {
+    numeros5.push(i * i);
+  }
+  return numeros5;
 }
 
-//call function squareNumbers
+console.log(squareNumbers());
 
+//6//
 function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let numeros6 = [];
+  for (let i = 20; i >= 1; i--) {
+    numeros6.push(i);
+  }
+
+  return numeros6;
 }
+console.log(countingBackwards());
 
-//call function countingBackwards
-
+//7//
 function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let numeros7 = [];
+  for (let i = 20; i >= 2; i = i - 2) {
+    numeros7.push(i);
+  }
+  return numeros7;
 }
+console.log(evenNumbersBackwards());
 
-//call function evenNumbersBackwards
-
+//8//
 function oddNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let numeros8 = [];
+  for (let i = 19; i >= 1; i = i - 2) {
+    numeros8.push(i);
+  }
+  return numeros8;
 }
+console.log(oddNumbersBackwards());
 
-//call function oddNumbersBackwards
-
+//9//
 function multiplesOfFiveBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let numeros9 = [];
+  for (let i = 100; i >= 5; i = i - 5) {
+    numeros9.push(i);
+  }
+  return numeros9;
 }
+console.log(multiplesOfFiveBackwards());
 
-//call function multiplesOfFiveBackwards
-
+//10//
 function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let numeros10 = [];
+  for (let i = 10; i >= 1; i = i - 1) {
+    numeros10.push(i * i);
+  }
+  return numeros10;
 }
 
-//call function squareNumbersBackwards
+console.log(squareNumbersBackwards());
